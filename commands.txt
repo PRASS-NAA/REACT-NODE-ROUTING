@@ -1,0 +1,2 @@
+when i created a branch in github, used git detch to reflect it here
+const navigate = useNavigate(); cant be used inside a function
