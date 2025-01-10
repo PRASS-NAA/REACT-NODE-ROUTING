@@ -1,2 +1,14 @@
 when i created a branch in github, used git detch to reflect it here
 const navigate = useNavigate(); cant be used inside a function
+
+if(response.status)
+{
+    console.log(response.data);
+    setUser(response.data);
+}// response.ok only if u use fetch()
+
+const recv = (recvId) =>
+{
+    navigate(`./${recvId}`);
+} use . to append the new url
+if u dont use . -> http://localhost:5173/102 
